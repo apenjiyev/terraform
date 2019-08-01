@@ -1,4 +1,4 @@
-resource "aws_route53_record" "www" {
+resource "aws_route53_record" "jenkins2" {
   zone_id = "${aws_route53_zone.primary.zone_id}"
   name    = "www.example.com"
   type    = "A"
