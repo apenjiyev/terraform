@@ -1,5 +1,5 @@
 resource "aws_s3_bucket" "b" {
-  bucket = "my-tf-test-bucket-azat2"
+  bucket = "my-tf-test-bucket-azat3"
   acl    = "private"
 
   tags = {
@@ -8,3 +8,4 @@ resource "aws_s3_bucket" "b" {
         Group = "April"
         Created_by = "Azat"
     }
+}
