@@ -4,3 +4,4 @@ output "key" {
 output "bucketname" {
   value = "${aws_s3_bucket.b.bucket}"
 }
+
